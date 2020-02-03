@@ -2,36 +2,28 @@ h1, footer{
   padding:5px;
   text-align: center;
 }
-
 footer{
   background: black;
   color: white;
-  width: 93.5vw;
+  width: 95vw;
   margin: auto;
   margin-top:5px;
 }
 .container{
-  display:/*YOUR CODE HERE:*/;
+  display: grid;
   grid-row-gap: 5px;
-  grid-template-columns: /*YOUR CODE HERE:*/;
+  grid-template-columns: auto;
   grid-template-rows: repeat(9,350px);
   margin: auto;
-    width: 95vw;
+  width: 95vw;
 }
-
 .container div{
-  /*YOUR CODE HERE:*/
+  width: 100%;
 }
-
-
 
 @media all and (min-width:720px){
     /*YOUR CODE HERE:*/
-
-
 }
 @media only screen and (min-width: 1024px){
     /*YOUR CODE HERE:*/
-
-
 }
